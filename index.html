@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href ="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=VT323&display=swap" rel="stylesheet"> 
+    <title>show_notes</title>
+</head>
+<body>
+
+    <h1>Show Notes</h1>
+
+    <h2>Enter the URL to your podcast audio below</h2>
+
+    <input id = "link" type="url" value="Podcast Link">
+
+    <audio id = "player" src = "" controls></audio>
+
+    <h3>Enter your notes below. Press the + button to add your notes.</h3>
+    
+    <div>
+        <input type="text" id = "notes_input" value="Your notes here">
+
+
+        <button id="submit_note">+</button>
+
+    </div>
+
+    <div id = "notes">
+
+    </div>
+
+    <script src=show_notes.js></script>
+    
+</body>
+</html>
